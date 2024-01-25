@@ -60,7 +60,6 @@ function nuevoJuego() {
     numeroRandom = obtenerNumeroRandom();
     document.getElementById('inputUsuario').value = '';
     document.querySelector('#reiniciar').setAttribute('disabled', true);
-    console.log(numerosSorteados);
 };
 
 function aumentarLimite(){
